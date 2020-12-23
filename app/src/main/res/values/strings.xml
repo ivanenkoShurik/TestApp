@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">testApp</string>
+
+    <string name="msg_login_successful">Вы успешно залогинились</string>
+    <string name="error_msg_login_failure">Неправильные логин или пароль</string>
+    <string name="error_msg_login_error">Ошибка в процессе аутентифиации </string>
+
+    <string name="error_msg_no_biometric_hardware">На этом устройстве отсутствуют биометрические функции</string>
+    <string name="error_msg_biometric_hw_unavailable">В данный момент биометрические функции недоступны</string>
+    <string name="error_msg_no_biometric_record">Отсутствует привязка биометрических учетных данных к учетной записи</string>
+
+    <string name="fingerprint_auth_title">Заголовок</string>
+    <string name="fingerprint_auth_subtitle">Подзаголовок</string>
+    <string name="fingerprint_auth_description">Описание</string>
+
+    <string name="butt_save_title">Сохранить</string>
+    <string name="butt_check_title">Проверить</string>
+    <string name="butt_touch_id_title">TouchId</string>
+    <string name="login_hint">Логин</string>
+    <string name="password_hint">Пароль</string>
+
+</resources>

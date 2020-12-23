@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/act_main__constraint_lay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.view.LoginAct">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/act_main__login_et"
+            android:hint="@string/login_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="20"
+            android:layout_marginStart="@dimen/login_view_et_margin"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="@dimen/login_view_et_margin" />
+
+        <EditText
+            android:id="@+id/act_main__password_et"
+            android:hint="@string/password_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="20"
+            android:layout_marginStart="@dimen/login_view_et_margin"
+            android:layout_marginEnd="@dimen/login_view_et_margin" />
+
+        <Button
+            android:id="@+id/act_main__save_butt"
+            android:layout_width="@dimen/login_view_butt_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="@string/butt_save_title"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/act_main__check_butt"
+            android:layout_width="@dimen/login_view_butt_width"
+            android:layout_height="wrap_content"
+            android:text="@string/butt_check_title"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/act_main__touch_id_butt"
+            android:layout_width="@dimen/login_view_butt_width"
+            android:layout_height="wrap_content"
+            android:text="@string/butt_touch_id_title"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
